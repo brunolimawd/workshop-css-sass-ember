@@ -1,5 +1,74 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<header class="header">
+  <h1 class="header__title">
+    Chat with Tomster
+  </h1>
+  <img src="images/avatar.jpg" alt="Tomster" class="header__avatar">
+</header>
+<section class="content">
+  <ul class="chat-messages">
+    <li class="chat-messages__message chat-messages__message--me">
+      <span>10:30</span>
+      <p>Lorem, ipsum dolor.</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>10:31</span>
+      <p>Qui, molestiae tenetur!</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>10:40</span>
+      <p>Nulla, accusamus ipsa.</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>10:41</span>
+      <p>Obcaecati, suscipit veniam.</p>
+    </li>
+    <li class="chat-messages__message chat-messages__message--me">
+      <span>10:43</span>
+      <p>Voluptate, libero obcaecati!</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>11:20</span>
+      <p>Blanditiis, sed ipsa!</p>
+    </li>
+    <li class="chat-messages__message chat-messages__message--me">
+      <span>11:22</span>
+      <p>Earum, eos soluta?</p>
+    </li>
+    <li class="chat-messages__message chat-messages__message--me">
+      <span>11:23</span>
+      <p>Dicta, voluptates maxime.</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>12:40</span>
+      <p>Quia, aut repudiandae?</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>12:56</span>
+      <p>Voluptatum, corporis totam.</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>13:02</span>
+      <p>A, natus earum!</p>
+    </li>
+    <li class="chat-messages__message chat-messages__message--me">
+      <span>13:06</span>
+      <p>Adipisci, omnis dicta.</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>13:09</span>
+      <p>Dolore, officia? Eius.</p>
+    </li>
+    <li class="chat-messages__message">
+      <span>14:00</span>
+      <p>Tenetur, reprehenderit libero.</p>
+    </li>
+    <li class="chat-messages__message chat-messages__message--me">
+      <span>14:15</span>
+      <p>Voluptatum, ex magnam.</p>
+    </li>
+  </ul>
+  <form class="chat-input">
+    <input type="text" class="chat-input__message" placeholder="Type a message">
+    <button class="chat-input__send">Send</button>
+  </form>
+</section>
